@@ -1,6 +1,6 @@
-# 🍷 Wine Quality Prediction using Random Forest
+# Wine Quality Prediction using Random Forest
 
-## 📌 Project Overview
+## Project Overview
 This project builds a **Machine Learning model to predict wine quality** using physicochemical properties of wine.  
 The objective is to analyze the relationship between chemical attributes and wine quality and improve prediction performance using **Random Forest and hyperparameter tuning**.
 
@@ -14,7 +14,7 @@ This project demonstrates several important machine learning concepts including:
 
 ---
 
-# 📂 Dataset
+# Dataset
 
 The dataset used in this project is **WineQT.csv**, which contains physicochemical properties of wine samples along with their quality ratings.
 
@@ -40,7 +40,7 @@ The dataset includes the following attributes:
 
 ---
 
-# 📊 Exploratory Data Analysis
+# Exploratory Data Analysis
 
 EDA was performed to understand the distribution of wine quality and relationships between features.
 
@@ -61,7 +61,7 @@ These insights suggest that chemical properties influence wine quality.
 
 ---
 
-# ⚙️ Data Preprocessing
+# Data Preprocessing
 
 The dataset was split into training and testing sets.
 
@@ -74,7 +74,7 @@ train_test_split(x, y, test_size=0.2, random_state=42)
 
 ---
 
-# ⚖️ Handling Class Imbalance
+# Handling Class Imbalance
 
 Wine quality classes are imbalanced. Two balancing techniques were explored.
 
@@ -109,7 +109,7 @@ This approach produced more stable results compared to SMOTE.
 
 ---
 
-# 🌳 Model Selection
+# Model Selection
 
 A **Random Forest Classifier** was chosen because:
 
@@ -120,7 +120,7 @@ A **Random Forest Classifier** was chosen because:
 
 ---
 
-# 📈 Feature Importance
+# Feature Importance
 
 Feature importance was extracted from the trained Random Forest model to understand which features contribute most to predictions.
 
@@ -128,7 +128,7 @@ Feature importance was visualized using **Seaborn bar plots**.
 
 ---
 
-# 🔧 Hyperparameter Tuning
+# Hyperparameter Tuning
 
 Two methods were used to tune model hyperparameters.
 
@@ -165,7 +165,7 @@ RandomizedSearchCV tested multiple combinations using cross-validation.
 
 ---
 
-# 🏆 Best Hyperparameters Found
+# Best Hyperparameters Found
 
 Example output from RandomizedSearchCV:
 
@@ -182,7 +182,7 @@ Example output from RandomizedSearchCV:
 
 ---
 
-# 📊 Model Evaluation
+# Model Evaluation
 
 Model performance was evaluated using:
 
@@ -199,7 +199,7 @@ classification_report()
 
 ---
 
-# 📉 Results Comparison
+# Results Comparison
 
 Three approaches were compared:
 
@@ -213,7 +213,7 @@ Although the unbalanced dataset produced slightly higher accuracy, balanced mode
 
 ---
 
-# 🧠 Key Learnings
+# Key Learnings
 
 This project highlights several important machine learning insights:
 
@@ -225,7 +225,7 @@ This project highlights several important machine learning insights:
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 - Python
 - Pandas
@@ -237,7 +237,7 @@ This project highlights several important machine learning insights:
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 Possible improvements for this project include:
 
@@ -248,7 +248,7 @@ Possible improvements for this project include:
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Cephas Princely**
 
